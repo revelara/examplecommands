@@ -9,4 +9,7 @@ fn hello_test() {
     program.send(2, String::from("INIT MESSAGE"));
 
     let _res = program.send(2, CyberMessageIn::AddNewUser(3.into()));
+
+    let _res2 = program.send(2, CyberMessageIn::AddNewUser(3.into()));
+    assert!(!_res2.main_failed);
 }

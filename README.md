@@ -8,5 +8,14 @@ git clone https://github.com/revelara/examplecommands.git
 
 cd examplecommands/
 
+3.- Compile the project
+
+cargo build --release
+
+4.- Upload your contract to gear Idea into the next website :
+
+https://idea.gear-tech.io/
+
+
 
 
